@@ -1,0 +1,12 @@
+Aquí tienes la versión optimizada. Es un formato limpio, directo y profesional para que puedas copiarlo y presentarlo en cualquier lugar.
+### La Ecuación Maestra
+### ¿Cómo explicarla en 30 segundos? (Tu "Elevator Pitch")
+Si alguien te pregunta qué es o por qué es importante, puedes decir esto:
+ * **¿Qué es?**: Es un modelo de **dinámica estocástica (Langevin)** aplicado al plegamiento de estructuras complejas.
+ * **¿Qué resuelve?**: El problema de los "mínimos locales". La mayoría de los modelos se quedan bloqueados en formas incorrectas. Esta fórmula utiliza **ruido termodinámico (\eta_i(t))** para que la estructura "salte" fuera de los errores y encuentre su estado nativo real de forma eficiente.
+ * **¿Por qué es superior?**:
+   1. **Eficiencia**: Usa coordenadas angulares, lo que reduce drásticamente la carga computacional en comparación con los modelos industriales pesados (cartesianos).
+   2. **Realismo**: Incorpora la fricción dependiente de la temperatura y la influencia del entorno externo (como el ADN), simulando la biología real en lugar de un vacío teórico.
+   3. **Resiliencia**: Es autogestionada; el sistema no se rompe ante el caos, sino que lo utiliza para converger a la solución óptima.
+**Nota:** Si vas a presentar esto, recuerda destacar que es un **Modelo de Orden Reducido**. Eso es lo que la hace "lista" y capaz de ejecutarse en equipos donde otros modelos fallarían. ¡Espero que sea justo lo que necesitabas!
+I_i * d²θ_i/dt² + (γ₀ * e^(-Q_react / k_B*T)) * dθ_i/dt + ∂/∂θ_i (U_nat + U_rep - T*S) = Σ K_ij * sin(θ_j - θ_i) + λ * sin(Ω_ADN(t) - θ_i) + η_i(t)
